@@ -17,7 +17,7 @@ app.get('/detect', (req,res)=>{
 });
 
 app.get('/verify', (req,res)=>{
-    res.send('POST a faceID taken from the "\/detect\" endpoint, where the first key is "faceId1\" and the value is "\{YOUR_FACEID_FOR_FIRST_IMAGE}\" amd the second key is "faceId2\" and the second value is "\{YOUR_FACEID_FOR_SECOND_IMAGE}\" ');
+    res.send('POST a faceID taken from the "\/detect\" endpoint, where the first key is "faceId1\" and the value is "\{YOUR_FACEID_FOR_FIRST_IMAGE}\" and the second key is "faceId2\" and the second value is "\{YOUR_FACEID_FOR_SECOND_IMAGE}\" ');
 });
 
 app.post('/detect', (req,res, next)=>{
